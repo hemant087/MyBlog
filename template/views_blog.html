@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    {{blog.title}}
+    <hr>
+    {{blog.banner_image}}
+    <hr>
+    {{blog.content|safe}}
+
+{% endblock content %}
